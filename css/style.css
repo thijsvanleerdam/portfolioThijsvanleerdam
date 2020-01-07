@@ -11,15 +11,35 @@ body{
   background-color: #555; /* Green */
   border: 1px solid #555;
   color: white;
-  padding: 80px 160px;
+  padding: 80px 150px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline-table;
   font-size: 30px;
   cursor: pointer;
   float: none;
 }
+.btn-group2 .button {
+  background-color: #555; /* Green */
+  border: 1px solid #555;
+  color: white;
+	padding:80px 50px 80px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-table;
+  font-size: 15px;
+  cursor: pointer;
+	float: none;
+	width: 100px;
+	height: 100px;
+}
+.btn-group2 .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
 
+.btn-group2 .button:hover {
+  background-color: #3e8e41;
+}
 .btn-group .button:not(:last-child) {
   border-right: none; /* Prevent double borders */
 }
