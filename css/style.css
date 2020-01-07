@@ -1,0 +1,190 @@
+body{
+	background:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+
+}
+.btn-group .button {
+  background-color: #555; /* Green */
+  border: 1px solid #555;
+  color: white;
+  padding: 80px 160px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  float: none;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	padding: 0cm
+
+}
+.container2{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	padding: 0cm;
+	
+}
+.container3{
+	width:100%;
+	margin-left:10%;
+	margin-right: 10%;
+	overflow:hidden;
+	padding: 0cm;
+	
+}
+#main-header{
+	background-color: white;
+	color: white;
+	text-align: center
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
+	color: white
+}
+.active {
+  background-color: #4CAF50;
+}	
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+#navbar a:hover{
+	color:white;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#showcase{
+	background-image:url('../fotos/Smart-Home-Image-2.jpg');
+	background-position:center;
+	box-sizing: content-box;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+#main2{
+	float:left;
+	width:100%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+	.myButton {
+		box-shadow:inset 0px 0px 0px 0px #3dc21b;
+		background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+		background-color:#44c767;
+		border-radius:5px;
+		border:1px solid #18ab29;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:26px;
+		padding:15px 42px;
+		text-decoration:none;
+		text-shadow:0px 0px 0px #2f6627;
+	}
+	.myButton:hover {
+		background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+		background-color:#5cbf2a;
+	}
+	.myButton:active {
+		position:relative;
+		top:1px;
+	}
+	
+	}
